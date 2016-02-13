@@ -6,10 +6,6 @@ An object-oriented language for quick and easy programming
 
 * `latest` tracks the latest stable release of Ruby.
 
-## Included Gems
-
-* bundler
-
 ## License
 
 [MIT](https://tldrlegal.com/license/mit-license)
