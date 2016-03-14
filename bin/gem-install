@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'fileutils'
+
 ARGV.each(&Gem.method(:install))
 
 Gem.path.map { |path| "#{path}/cache" }.each(&FileUtils.method(:rm_rf))
